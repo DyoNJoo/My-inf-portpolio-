@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <button>MIN YONG</button>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <button data-animation-scroll="true" data-target="main">Home</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#about">About</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#skills">Skills</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#site">My Site</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#contact">Contact</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="container">
+                <div class="text-1">Hello! My Name is</div>
+                <div class="text-2">MinYong LEE</div>
+                <div class="text-3">My Skills <span></span></div>
+            </div>
+        </div>
+    </main>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="title">
+                <h4>About</h4>
+                <h3></h3>
+                <h2>Who I am?</h2>
+            </div>
+            <div class="about-self">
+                <div class="left">
+                    <img src="images/me_alone.png" alt="">
+                </div>
+                <div class="right">
+                    <h3>Hello, <br><strong>I'm Min yong, Lee!</strong></h3>
+                    <br>
+                    <p>I'm Web Publisher And Front-End Developer.</p>
+                    <br>
+                    <p>Wonkwang University - Business Administration / Computer-Software Engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="title">
+                <h4>Skills</h4>
+                <h3></h3>
+                <h2>What I Learned</h2>
+            </div>
+            <div class="skills-self">
+                <div class="left">
+                    <h3>
+                        My Skills & Experiences
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temboribus tempore delectus consequuntur. Eveniet, impedit
+                        deleniti consectetur non doloribus distinctio porro, ipsam quam
+                        nam laudantium molestiae assumenda oditeius, dicta dolores.
+                    </p>
+                </div>
+                <div class="right">
+                    <div class="bars">
+                        <div class="bars-content">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <progress id="progress" value="90" min="0" max="100"></progress>
+                    </div>
+                    <div class="bars">
+                        <div class="bars-content">
+                            <span>CSS</span>
+                            <span>65%</span>
+                        </div>
+                        <progress id="progress" value="65" min="0" max="100"></progress>
+                    </div>
+                    <div class="bars">
+                        <div class="bars-content">
+                            <span>JavaScript</span>
+                            <span>60%</span>
+                        </div>
+                        <progress id="progress" value="60" min="0" max="100"></progress>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="site" class="site">
+        <div class="container">
+            <div class="title">
+                <h4>My Site</h4>
+                <h3></h3>
+                <h2>My Community Site</h2>
+            </div>
+            <div class="do-me">
+                <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Instagram</h3>
+                        <p>My Instagram</p>
+                    </div>
+                </div>
+                <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Facebook</h3>
+                        <p>My Facebook</p>
+                    </div>
+                </div>
+                <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-brands fa-steam"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Steam</h3>
+                        <p>My Steam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="title">
+                <h4>Contact</h4>
+                <h3></h3>
+                <h2>Contact With Me!</h2>
+            </div>
+            <div class="contact-me">
+                <div class="left">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Phone</h3>
+                            <p>010-2982-7296</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="text" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="msg">Message</label>
+                            <textarea id="msg"></textarea>
+                        </div>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="left">
+                <h>
+                    <h>본 홈페이지는 학습용으로 제작된 홈페이지입니다.
+                        <br>
+                        (This website has been created for educational purposes.)
+                    </h>
+                </h>
+            </div>
+            <div class="right">
+                <h>
+                    E-mail : inouemarina@naver.com
+                    <br>
+                    원광대학교 경영학부 / 컴퓨터소프트웨어공학과 20180550 이민용
+                </h>
+            </div>
+        </div>
+    </footer>
+    <script src="js/write_text.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/scroll_request.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>

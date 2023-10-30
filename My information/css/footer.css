@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "나눔스퀘어OTF Regular";
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+footer {
+    position: relative;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: black;
+}
+
+footer .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .left {
+    float: left;
+    padding: 0 4rem;
+}
+
+.container .left h {
+    color: white;
+    font-size: 1rem;
+
+}
+
+.container .right {
+    float: right;
+    padding: 0 4rem;
+}
+
+.container .right h {
+    color: white;
+    font-size: 1rem;
+}

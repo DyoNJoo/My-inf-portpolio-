@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "나눔스퀘어OTF Regular";
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    color: white;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    padding: 0 20px;
+}
+
+header button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+}
+
+header h1 button {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container nav ul li button:hover {
+    color: #f7a611
+}
